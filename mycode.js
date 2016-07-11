@@ -122,4 +122,3 @@ for (x = 0; x <  favouriteFoods.length; x ++ )
 
 // End of in-class exercises
 
-
