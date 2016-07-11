@@ -145,3 +145,11 @@ areaCircle1(5);
 
 //Calculate what percentage of that area is of the squared result(#3)
 
+function percentageOf()
+{
+
+
+
+}
+
+
