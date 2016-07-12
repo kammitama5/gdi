@@ -164,8 +164,65 @@ function percentageOf(numberForOperations)
 }
  percentageOf(20);
 
+ //=================================================================================
 
+//What number is bigger?
 
+ function greaterThan(number3, number4)
+ {
+
+ 	if (number3 > number4)
+ 	{
+ 		console.log(number3 + ' is greater than ' + number4 + '.');
+ 	}
+ 	else if (number3 == number4)
+ 	{
+ 		console.log(number3 + ' is equal to ' + number4 + '.');
+ 	}
+ 	else
+ 	{
+ 		console.log(number3 + ' is less than ' + number4 + '.');
+ 	}
+}
+
+ //test numbers
+
+ greaterThan(4, 5);
+ greaterThan(6, 4);
+ greaterThan(4, 4);
+
+//====================================================================================
+
+//Pluralize 
+
+function pluralize(num3, word3)
+{
+	if ((!(num3 == 1)) && (!(word3 == 'goose')) && (!(word3 == 'deer')))
+	{
+		console.log(num3 + ' ' + word3 + 's.');
+
+	}
+
+	else if ((!(num3 == 1)) && ((word3 == 'goose')))
+	{
+		console.log(num3 + ' ' + 'geese.');
+	}
+
+	else if ((!(num3 == 1)) && ((word3 == 'deer')))
+	{
+		console.log(num3 + ' ' + 'deer.');
+	}
+
+	else 
+	{
+		console.log(num3 + ' ' + word3 + '.');
+	}
+}
+
+pluralize(5, 'cat');
+pluralize(7, 'turtle');
+pluralize(6, 'deer');
+pluralize(13, 'goose');
 
 
 
