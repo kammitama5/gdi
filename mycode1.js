@@ -145,11 +145,30 @@ areaCircle1(5);
 
 //Calculate what percentage of that area is of the squared result(#3)
 
-function percentageOf()
+function percentageOf(numberForOperations)
 {
+	
+	//calculate the area
+	area2 = ((Math.PI * (numberForOperations * numberForOperations)).toFixed(2));
 
+	//calculate the number squared
+	squared2 = numberForOperations * numberForOperations;
+
+	//calculate the percentage of the ((area / squared result)/100.0);
+	percentageOf2 = ((squared2 / area2) * 100).toFixed(2);
+
+	console.log(' The squared result is ' + squared2 + ' and ' + percentageOf2 + 
+		'% of the area ' + area2 + '.');
 
 
 }
+ percentageOf(20);
+
+
+
+
+
+
+
 
 
