@@ -224,7 +224,26 @@ pluralize(7, 'turtle');
 pluralize(6, 'deer');
 pluralize(13, 'goose');
 
+//======================================================================================
 
+//Even/Odd Counter in for loop from 0 to 20
+
+for (m = 0; m < 21; m++)
+{
+	if ((m % 2) == 0)
+	{
+		console.log(m + ' is even.');
+	}
+	else 
+	{
+		console.log(m + ' is odd.');
+	}
+}
+
+
+//======================================================================================
+
+//Top Choice
 
 
 
