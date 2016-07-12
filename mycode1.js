@@ -245,6 +245,69 @@ for (m = 0; m < 21; m++)
 
 //Top Choice
 
+//Create an array to hold your top choices and display 
+// a string that says "Your top choice is blah blah..."
+
+var array1 = ['Mega-Man', 'Duck Game', 'Super Mario Bros', 'Myst', '7th Guest',
+ 'Space Invaders'];
+
+ for (b = 0; b < array1.length; b++)
+ {
+ 	if (b == 0)
+ 	{
+
+ 		console.log(array1[0] + ' is my first choice.');
+
+ 	}
+
+ 	if (b == 1)
+ 	{
+		console.log(array1[1] + ' is my second choice.');
+ 	}
+
+ 	if (b == 2)
+ 	{
+		console.log(array1[2] + ' is my third choice.');
+ 	}
+
+ 	if (b == 3)
+ 	{
+		console.log(array1[3] + ' is my fourth choice.');
+ 	}
+
+ 	if (b == 4)
+ 	{
+		console.log(array1[4] + ' is my fifth choice.');
+ 	}
+
+ 	if (b == 5)
+ 	{
+		console.log(array1[5] + ' is my sixth choice.');
+ 	}
+ } 
+
+//=====================================================================================
+
+//Challenge Question -- Mix it Up
+
+//Create a function called mixItUp. It should take 
+//two strings and return the concat of the two strings 
+//separated by a space, slicing out and swapping the first 
+// 2 characters of each.
+// for example, mixItUp('mix', 'pod') = 'pox mid'
+
+function mixItUp(firstString, secondString)
+{
+
+	console.log(firstString[0] + firstString[1] + secondString.slice(1)
+	 + ' ' + secondString[0] + secondString[1] + firstString.slice(2));
 
 
 
+}
+
+mixItUp('hello', 'world');
+
+//======================================================================================
+
+//End of Homework 1
